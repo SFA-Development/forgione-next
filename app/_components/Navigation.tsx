@@ -11,7 +11,7 @@ const Navigation = () => {
    const navLinks = ["Portfolio", "Process", "Interests", "Contact"];
 
    return (
-      <nav className="sticky top-0 left-0 w-full h-24 bg-white shadow-lg flex items-center z-10">
+      <nav className="sticky top-0 left-0 w-full h-24 mb-4 bg-white shadow-lg flex items-center z-10">
          <div className="container px-10 flex items-center justify-between mx-auto">
             <Image
                src={Logo}
@@ -23,7 +23,7 @@ const Navigation = () => {
             <ul className="flex justify-center items-center uppercase my-0">
                {navLinks.map((link) => (
                   <li className="mx-2 hidden md:block" key={link}>
-                     <a data-ccursor className="block p-2 rounded-lg" href="#">
+                     <a data-ccursor className="block p-2 rounded-lg font-normal" href="#">
                         {link}
                      </a>
                   </li>
