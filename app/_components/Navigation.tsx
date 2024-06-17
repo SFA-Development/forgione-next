@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import { RxHamburgerMenu } from "react-icons/rx";
+
 import Logo from "@/app/assets/nav/logo.png";
 
 import gsap from "gsap";
@@ -23,12 +25,19 @@ const Navigation = () => {
             <ul className="flex justify-center items-center uppercase my-0">
                {navLinks.map((link) => (
                   <li className="mx-2 hidden md:block" key={link}>
-                     <a data-ccursor className="block p-2 rounded-lg font-normal" href="#">
+                     <a
+                        data-ccursor
+                        className="block p-2 rounded-lg font-normal"
+                        href="#"
+                     >
                         {link}
                      </a>
                   </li>
                ))}
             </ul>
+            <a href="#" data-ccursor className="btn btn-transparent rounded-lg block md:hidden">
+               <RxHamburgerMenu className="" size={50} />
+            </a>
          </div>
       </nav>
    );
