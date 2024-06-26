@@ -13,12 +13,13 @@ const GallerySection = () => {
       "https://www.johnforgione.com/site/assets/files/1060/troutbrook_valley_orchard_800x400.jpg",
       "https://www.johnforgione.com/site/assets/files/1028/pushing_off_lr.jpg",
       "https://www.johnforgione.com/site/assets/files/1107/nellie_at_rest.jpg",
+      "https://johnforgione.sfadev.com/site/assets/files/1047/forgione_john_21148947_122116641771613_4254935142784565248_n.jpg"
    ];
 
    return (
-      <>
-         <ParallaxScroll images={images}></ParallaxScroll>
-      </>
+      <div className="my-32">
+          <ParallaxScroll images={images}></ParallaxScroll>
+      </div>
    );
 };
 

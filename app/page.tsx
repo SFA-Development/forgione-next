@@ -10,11 +10,14 @@ export default function Home() {
          <Navigation />
 
          <div className="max-w-screen-2xl px-10">
-            <Landing />
-            <GallerySection />
+               <Landing />
+
+               <GallerySection />
 
             <div className="max-w-screen-sm">
-               <h2 className="uppercase underline underline-offset-4 text-stone-500 text-xl my-3 opacity-75">Portfolio</h2>
+               <h2 className="uppercase underline underline-offset-4 text-stone-500 text-xl my-3 opacity-75">
+                  Portfolio
+               </h2>
                <p className="text-xl">
                   My desire to paint is driven by a true love of nature and art.
                   Formally schooled in the fine arts, and deeply influenced by
