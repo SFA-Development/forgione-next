@@ -1,13 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-
 import Logo from "@/app/assets/nav/logo.png";
-
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-
-gsap.registerPlugin(useGSAP);
 
 const Navigation = () => {
    const navLinks = ["Portfolio", "Process", "Interests", "Contact"];
@@ -20,7 +14,7 @@ const Navigation = () => {
                width={200}
                height={100}
                alt="John Forgione Logo"
-            ></Image>
+            />
 
             <ul className="flex justify-center items-center uppercase my-0">
                {navLinks.map((link) => (
@@ -35,8 +29,9 @@ const Navigation = () => {
                   </li>
                ))}
             </ul>
-            <a href="#" data-ccursor className="btn btn-transparent rounded-lg block md:hidden">
-               <RxHamburgerMenu className="" size={50} />
+
+            <a href="#" data-ccursor="lift" className="btn btn-transparent rounded-lg block md:hidden">
+               <RxHamburgerMenu size={50} />
             </a>
          </div>
       </nav>

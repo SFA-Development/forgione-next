@@ -6,7 +6,7 @@ import FancyImage from "./FancyImage";
 
 const Landing = () => {
    return (
-      <div className="landing flex flex-col lg:flex-row justify-center items-center">
+      <div className="landing pt-20 flex flex-col lg:flex-row justify-center items-center">
          <FancyImage
             className="block"
             src={landingPainting.src}

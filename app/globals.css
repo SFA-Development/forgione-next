@@ -8,8 +8,12 @@
    pointer-events: none;
    border-radius: 200px;
    height: 10px;
-   opacity: 0.8;
+   opacity: 0.2;
    /* border: solid 2px #333; */
+}
+
+.c-cursor_active{
+   opacity: 0.8;
 }
 
 body {
