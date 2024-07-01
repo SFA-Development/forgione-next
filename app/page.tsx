@@ -6,7 +6,7 @@ import CalloutButton from "./_components/CalloutButton";
 
 export default function Home() {
    return (
-      <main className="flex min-h-screen flex-col items-center justify-between">
+      <main className="flex min-h-screen flex-col items-center justify-between bg-[#f3f2ff]">
          <Navigation />
 
          <div className="max-w-screen-2xl px-10">
@@ -14,7 +14,7 @@ export default function Home() {
 
                <GallerySection />
 
-            <div className="max-w-screen-sm">
+            {/* <div className="max-w-screen-sm">
                <h2 className="uppercase underline underline-offset-4 text-stone-500 text-xl my-3 opacity-75">
                   Portfolio
                </h2>
@@ -26,7 +26,7 @@ export default function Home() {
                   I hope to positively inspire those around me, and paint on.
                </p>
                <CalloutButton title="More Paintings" href="#" />
-            </div>
+            </div> */}
          </div>
 
          <ContextCursor />

@@ -7,7 +7,7 @@ const Navigation = () => {
    const navLinks = ["Portfolio", "Process", "Interests", "Contact"];
 
    return (
-      <nav className="sticky top-0 left-0 w-full h-24 mb-4 bg-white shadow-lg flex items-center z-10" style={{transform: `translateZ(100px)`} }>
+      <nav className="sticky top-0 left-0 w-full h-24 mb-4 bg-[#ffffffee] shadow-lg flex items-center z-10" style={{transform: `translateZ(100px)`} }>
          <div className="container px-10 flex items-center justify-between mx-auto">
             <Image
                src={Logo}

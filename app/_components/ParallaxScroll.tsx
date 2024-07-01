@@ -15,7 +15,7 @@ export const ParallaxScroll = ({ images, className }: Props) => {
    const { scrollYProgress } = useScroll({});
 
    const translateFirst = useTransform(scrollYProgress, [0, 1], [300, 0]);
-   const translateSecond = useTransform(scrollYProgress, [0, 1], [100, 0]);
+   const translateSecond = useTransform(scrollYProgress, [0, 1], [0, 0]);
    const translateThird = useTransform(scrollYProgress, [0, 1], [300, 0]);
 
    const third = Math.ceil(images.length / 3);
